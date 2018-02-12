@@ -1,7 +1,7 @@
 #------------------ System Setting --------------#
 accounts:    # accounts active for trading
   #- 107957 
-  - DU15045
+  - 100001
 msgq: nanomsg           # nanomsg kafka, zmq
 log_dir: d:/workspace/elitequant_cpp/log
 data_dir: d:/workspace/elitequant_cpp/data
@@ -68,3 +68,21 @@ your_simnow_account2:
     - cu1712
     - cu1801
 # ---------------- End of CTP  ------------------#
+#----------------- BTCC --------------------------#
+100000:
+  broker: BTCC
+  api: BTCC
+  port: 7498          # Two IB accounts should have different ports
+  base_currency: USD
+  tickers:
+    - BTCUSD
+# ----------------- End of BTCC  ------------------#
+#----------------- OKCOIN --------------------------#
+100001:
+  broker: OKCOIN
+  api: OKCOIN
+  port: 7498          # Two IB accounts should have different ports
+  base_currency: USD
+  tickers:
+    - BTCUSD
+# ----------------- End of OKCOIN  ------------------#

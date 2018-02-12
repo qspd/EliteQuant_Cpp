@@ -75,6 +75,10 @@ namespace EliteQuant {
 			}
 			else if (api == "SINA")
 				_broker = BROKERS::SINA;
+			else if (api == "BTCC")
+				_broker = BROKERS::BTCC;
+			else if (api == "OKCOIN")
+				_broker = BROKERS::OKCOIN;
 			else
 				_broker = BROKERS::PAPER;
 

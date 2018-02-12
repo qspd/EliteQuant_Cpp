@@ -75,7 +75,7 @@ printf("%s ",ymdhms().c_str());printf(__VA_ARGS__);\
 	};
 
 	enum class BROKERS : uint8_t {
-		IB = 0, CTP, GOOGLE, SINA, PAPER
+		IB = 0, CTP, GOOGLE, SINA, PAPER, BTCC, OKCOIN
 	};
 
 	enum class MSGQ : uint8_t {
